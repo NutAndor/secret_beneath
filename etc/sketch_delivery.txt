@@ -1,0 +1,131 @@
+Dialogues
+=========
+Facutloni: "Ah! You have finally return, my new worker."
+You: Choice between "How may I be of service?" (continue), "What is it this time?" (continue), and "Ah! You are still insolence." (leave)
+Facutloni: "I need someone to deliver all of the items that are on a storage."
+Facutloni: "Come back to me when you deliver all of the items in any order. Here is the list of customers:" [Quest Accepted]
+--Received Docket (A document listing the contents of a delivery)
+Arcir the book-lover from Fallhaven ordered 'Dusty Old Book'
+Edrin the metalsmith from Brimhaven ordered 'Striped Hammer'
+Odirath the armorer from Stoutford ordered 'Pretty Porcelain Figure'
+Venanra the laundress from Brimhaven ordered 'Old, worn cape'
+Tjure the unluckiest merchant from BWM ordered 'Mysterious green something'
+Maid the maid from Guynmart Castle ordered 'Chandelier'
+Arghes the merchant from Remgard ordered 'Yellow Boot'
+Wyre the mournful woman from Vilegard ordered 'Lyre'
+Mikhail your father from Crossglen ordered 'Plush Pillow'
+Pangitain the fortune teller from Brimhaven ordered 'Crystal Globe'
+You: Choice between "It will be done." and "You want me to deliver these items to your customers?"
+Facutloni: "Yes yes, hurry now. I have work to do here." (leave)
+
+--If you go to Arcir--
+Arcir: "Hello. I'm Arcir."
+You: "Hello, did you order 'Dusty old book'?" (QuestActiveRequire: Delivery; "Dusty old book" removed, quest updated)
+Arcir: "Yes, an old but useful book but you should wipe it first. Anyway, here's my delivery fee."
+--Received 20 gold and 50 exp
+You: "Thank you." (leave)
+
+--If you go to Edrin--
+Edrin: "Hello."
+You: "Hello, did you order 'Striped Hammer'?" (QuestActiveRequire: Delivery; "Striped Hammer" removed, quest updated)
+Edrin: "Yes, a stripy striped hammer. Anyway, here's my delivery fee."
+--Received 10 gold and 50 exp
+You: "Thank you." (leave)
+
+--If you go to Odirath--
+Odirath: "Welcome to my shop. Are you looking for anything in particular?"
+You: "Hello, did you order 'Pretty Porcelain Figure'?" (QuestActiveRequire: Delivery; "Pretty Porcelain Figure" removed, quest updated)
+Odirath: "Yes, indeed. A gift for my beautiful daughter...but why it took so long? Sigh, here's my delivery fee."
+--Received 30 gold and 50 exp
+You: "Thank you." (leave)
+
+--If you go to Venanra--
+Venanra: "Hello, what can I do for you?"
+You: "Hello, did you order 'Old, worn cape'?" (QuestActiveRequire: Delivery; "Old, worn cape" removed, quest updated)
+Venanra: "Yes I did, kid. Old but still beneficial. Here's my delivery fee."
+--Received 10 gold and 50 exp
+You: "Thank you." (leave)
+
+--If you go to Tjure--
+Tjure: Choice between "Oh, what a rare surprise!" (TheSilverScaleQuest: Inactive), "Thank you for your help." (TheSilverScaleQuest: Active) and "Oh, you look better than the last time we met. Thank you for your help." (TheSilverScaleQuest: Finished)
+You: "Hello, did you order 'Mysterious green something'?" (QuestActiveRequire: Delivery; "Mysterious green something" removed, quest updated)
+Tjue: "What?! My lucky clover...but why now? Anyway, I'll no longer ran out of luck this time. Here's my delivery fee."
+--Received 50 gold and 50 exp
+You: "Thank you." (leave)
+
+--If you go to Rob's Servant--
+Servant: "What are you doing in my lords rooms?"
+You: "Hello, did you order 'Chandelier'?" (QuestActiveRequire: Delivery; "Chandelier" removed, quest updated)
+Servant: "Finally, I'm no longer afraid of that room every time my lord turns off the lights to scare me. Here's my delivery fee."
+--Received 40 gold and 50 exp
+You: "Thank you." (leave)
+
+--if you go to Arghes--
+Arghes: "How interesting. The child from Fallhaven, here in Remgard?"
+You: "Hello, did you order 'Yellow boot'?" (QuestActiveRequire: Delivery; "Yellow boot" removed, quest updated)
+Arghes: "Yes, kid. I use this to sell unique boot - the Bar Brawler's boots. It is very helpful for you, kid."
+--Received 50 exp
+You: Choice between "Sure, let's trade." (trade) and "No thanks." (leave)
+
+--if you go to Wyre--
+Wyre: "Shadow help me."
+You: "Hello, did you order 'Lyre'?" (QuestActiveRequire: Delivery; "Lyre" removed, quest updated)
+Wyre: "Yes. I'm longing for it just like how I'm longing for my son. But now I can mourn as I play his favorite song until I die."
+--Received 50 exp
+You: "My sincere condolence to your beloved son." (leave)
+
+--if you go to Mikhail--
+Mikhail: "Anything else I can help you with?"
+You: "Hello, did you order 'Plush Pillow'?" (QuestActiveRequire: Delivery; "Plush Pillow" removed, quest updated)
+Mikhail: "Oh wow! Finally, his gift has arrived and we only have to wait for his arrival."
+You: Choice between "Sigh. I hope so." (continue1) and "What?! Where's my gift too?" (continue2)
+(continue2)
+Mikhail: "I already gave you his shield."
+(continue1)
+Mikhail: "Anyway, weeks passed by already so please go look for your brother."
+--Received 50 exp
+You: Choice between "Ok, bye." (leave) and "I'm still looking for him." (leave)
+
+--if you go to Pangitain--
+Pangitain: "Hello. It looks like you have something for me."
+You: "Hello, did you order 'Crystal Globe'?" (QuestActiveRequire: Delivery; "Crystal Globe" removed, quest updated)
+Pangitain: "Ah yes, I need new one. Say you want me to help you?"
+--Received 50 exp
+You: Choice between "What help can you offer?" and "I am searching..."
+(.....)
+
+--if you go back to Facutloni--
+Facutloni: "You are back. Did you deliver all of the items?"
+You: Choice between "Yes. I delivered everything." (DeliverEverythingIsTrue; questupdated; continue) and "Not yet." (DeliverEverythingIsFalse; continue2)
+(continue2)
+Facutloni: "Then what are you standing there for?! Get out and deliver everything!" (leave)
+(continue1)
+Facutloni: "Good. Give me back my Docket."
+You: Choice between "Here you go sir." (DocketInInventoryTrue; 'Docket' removed, questupdated; continue3), "About that." (DocketInInventoryFalse; continue4)
+(continue4)
+Facutloni: "You irresponsible kid! Get out, find it and bring it to me!" (leave)
+(continue3)
+Facutloni: "Good job! I am glad that you work responsibly."
+-------Quest completed------- 1,500 XP
+You: Choice between "And seriously." and "I travelled far and wide."
+Facutloni: "That is serious. Here is 100 gold."
+--Received 100 gold
+You: Choice between "Thanks." (leave) and "What the?" (continue5)
+(continue5)
+Facutloni: "Pardon?"
+You: "Thank you." (leave)
+Quest log
+=========
+10 Facutloni asked me to help him deliver all of the items ordered by his customers a long time ago. He even gave me an old document with the names and items written on it.
+20 I delivered Dusty Old book to Arcir the book-lover from Fallhaven. (50 XP)
+30 I delivered Striped Hammer to Edrin the metalsmith from Fallhaven. (50 XP)
+40 I delivered Pretty Porcelain Figure to Odirath the armorer from Stoutford. (50 XP)
+50 I delivered Old, worn cape to Venanra the laundress from Brimhaven. (50 XP)
+60 I delivered Mysterious green something to Tjure the unluckiest merchant from BWM. (50 XP)
+70 I delivered Chandelier to Rob's servant the servant from Guynmart. (50 XP)
+80 I delivered Yellow boot to Arghes the merchant from Remgard. (50 XP)
+90 I delivered Lyre to Wyre the mournful woman from Vilegard. (50 XP)
+100 I delivered Plush Pillow to Mikhail your father from Crossglen. (50 XP)
+110 I delivered Crystal Globe to Pangitain the fortune teller from Brimhaven. (50 XP)
+120 I returned to Facutloni and told him that I delivered all of the ordered items.
+130 I gave Facutloni the Docket. He is very glad. (1,500 XP) [End of Quest]
