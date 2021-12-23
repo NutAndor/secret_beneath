@@ -3,7 +3,7 @@ Dialogues
 You meet again with Gison, the mushroom soup maker, to ask for your help. He ask you to solve the mystery beneath their house.
 Whatever lies there is dangerous and risky.
 
---Talk to Nimael--
+--If you talk to Nimael--
 
 Nimael: "Hello kid."
 Nimael: "Please help us."
@@ -70,13 +70,15 @@ Gael: "Wow! That is an exotic meat. Thank you."
 You: "Indeed. A meat from a distant foreign place."
 You: "May I pass now?"
 Gael: "Suit yourself. But I warn you."
-Gael: "There is no going back once you go down there. Unless you found another way to go back here."
-You: "Wait what?! There is no ladder or rope to go down there?"
-Gael: "It's not that deep to jump down there. I'll have to go out hunting."
-You: "Really helpful." (leave)
+Gael: "There is no going back once you go down there. Unless you found another way to go back here. \n Here's the key."
+You: "Wait what?! There is no ladder or rope to go down there?" (questUpdated)
+--Received Gael's Basement key 
+Gael: "It's not that deep to jump down there. I'll have to go out hunting. Good luck" 
+You: Choice between "Really helpful." (leave) and "Happy hunting." (leave)
 
 --go near the basement door--
 You: Choice between *Jump* and "Lem'me breath for a while." (leave)
+
 
 The basement is a dark, moist, and smelly place. It looks made of dirt.
 You jumped in the center of the ground surrounded by 4 walls (with a large hole on the bottom of every 4 walls-like the one in flagstone2) on every each side - north, south, east and west.
@@ -161,11 +163,13 @@ Gison: "I still have some of my delicious soup. How many bottles of soup do you 
 Quest log
 =========
 10 Gison, the man with the mushroom soup in the forest south of Fallhaven, got troubled from the mysterious force beneath his house. Whether its a natural seismic event or not, he asked me to check their basement by talking to Gael.
-20 Gael wants me to bring him an exotic meat. After that, I can go down to their basement.
+20 Gael wants me to bring him an exotic meat in exchange of permission to check their basement. 
 30 I brought some dried goat meat to Gael since it is the only meat I can find from another place.
-40 I killed a gigantic snake dwelling beneath Gison's house. (1,000XP)
-50 I killed all of the thieves as they loudly singing and playing musical instruments while celebrating their successful thefts. (1,000XP)
-60 I killed the thief warden and found an exit via rope. (500XP)
-70 I told Gison about the thieves' evil plan plotted and the gigantic snake lived in secret beneath their house. He is like a happy feet-dancing and celebrating. [End of Quest]
-80 Gison will give me cream mushroom soup in thanks if I bring him 2 of Bogsten's mushrooms, a milk, an empty bottle and 53 gold. [End of quest]
-85 I told Gison about the thieves' evil plan plotted in secret beneath their house. He is somewhat happy because the house is shaking less often. So, he urged me to go back down and explore the basement to slay whatever creature lies below.
+40 Gael gaved me a key for their basement. 
+45 I opened Gael's hatch basement. It's time to solve the secret mystery beneath their house.
+50 I killed a gigantic snake dwelling beneath Gison's house. (1,000XP)
+60 I killed all of the thieves as they loudly singing and playing musical instruments while celebrating their successful thefts. (1,000XP)
+70 I killed the thief warden and found an exit via rope. (500XP)
+80 I told Gison about the thieves' evil plan plotted and the gigantic snake lived in secret beneath their house. He is like a happy feet-dancing and celebrating. [End of Quest]
+90 Gison will give me cream mushroom soup in thanks if I bring him 2 of Bogsten's mushrooms, a milk, an empty bottle and 53 gold. [End of quest]
+95 I told Gison about the thieves' evil plan plotted in secret beneath their house. He is somewhat happy because the house is shaking less often. So, he urged me to go back down and explore the basement to slay whatever creature lies below.
