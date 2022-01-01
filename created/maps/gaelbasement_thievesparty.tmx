@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="18">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="73">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -153,93 +153,122 @@
  <tileset firstgid="6321" name="map_transition_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6449" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="6449" name="map_transition_6" tilewidth="32" tileheight="32" tilecount="144" columns="18">
+  <image source="../drawable/map_transition_6.png" width="576" height="256"/>
+ </tileset>
+ <tileset firstgid="6593" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6577" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="6721" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6705" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="6849" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_wall_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="6833" name="map_wall_2" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="6977" name="map_wall_2" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_2.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="6953" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="7097" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_3.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="7073" name="map_wall_4" tilewidth="32" tileheight="32" tilecount="120" columns="15">
+ <tileset firstgid="7217" name="map_wall_4" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_4.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="7193" name="map_window_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="7337" name="map_window_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="7465" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="10" height="8">
+ <tileset firstgid="7593" name="map_cavewall_5" tilewidth="32" tileheight="32" tilecount="36" columns="6">
+  <image source="../drawable/map_cavewall_5.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="7629" name="map_sign_ladder_omi2" tilewidth="32" tileheight="32" tilecount="32" columns="8">
+  <image source="../drawable/map_sign_ladder_omi2.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="7661" name="map_rock_3" tilewidth="32" tileheight="32" tilecount="30" columns="6">
+  <image source="../drawable/map_rock_3.png" width="192" height="160"/>
+ </tileset>
+ <layer id="1" name="Ground" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJyT52JgMCCA5YFYAYg/SuHHClB1DNL4MUzddCCeAcUz0fjToWr00cSxqdWHum06DnkYBqkB2Y9NDlkfSM0rTlRcyoUpBsIALRssUg==
+   eJxbwcTAsAKId1EBr0DCu4H4DAV4J5JZK4H4LBDfowCfRjPvPhBv5qQMI5tHqVmj5o2aN2oeKp7GhMDIZQs55oEArjKLHPNO4yi3Bot5y3GUg+SatxNPmT8Y/AvC1PQvoTS9ggk1fZKLATbKXo8=
   </data>
  </layer>
- <layer id="2" name="Objects" width="10" height="8">
+ <layer id="2" name="Objects" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYKA++MCKypdlYmD4zAdhyzAhSbAxMDwTY2B4KYagmfkZGE4IMjBUIZnBAhT/BsQ/kehbghA5kD4YSALqeSiEMOsr0KxvQHxDEKIPZj9IXSUrkplANV/4IXZWobmdEAAAldQbSA==
+   eJy1lTlLA0EUx4dkJpUmRElA8EBsBLFKYSWotYIXKIJaKAiCio14oIkfwKsQv4iKNpomwUoDogTBAy0E0RRGUMHC/yS77uzLrLsgPvgxmTfz/u/NtWHs/+wx6I3aEGPNoBG8oJ8L6vXKQLmHNuShtqRgrBptDXNv68AzavpSuPbZ9TLQy4Z/z5nWjJsx9cR/J/Qx58LiFeTBG7h0yd0v7H05X+Z+EBa+AGN+wAPWHKe6xxU9t3V7sT6yXrPd5YztgX2ur8PJxkSpLwWNI3AMkrzQT+hi85FS303I2g+zvYDGKTgDGV7o/+jJOWq99HxyxiVV907Of4fOB/jk9rEsyX0QtNc+pFmvam57d0L0Jg29pgp7XgF/QJNrAL5BUWwnwDZ5H09Y7zy5M5IIfFHFb+ah8U5G9/WeF1HzSDt00ZtFDcNgBCyBNjAqSs9cmtNe3lZZv1cROwWmwSLoBjPKOtNh9zNR9bZIrGn07Zl10u8T1WuF3jJYAXGQAHPC0ja/DzSfaleKvwuxa2AdbIBNsKCp2UnLH7X3W4R19+jdlxZXzlhq0vVWEr0djLdDswP0gF7QadQXM95ajOtzyToaoJdy+F/6i30DmFp9Xg==
   </data>
  </layer>
- <layer id="9" name="Objects_after" width="10" height="8">
+ <layer id="3" name="Above" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBj84IvoQLsANwAAoqcBCg==
+   eJxjYKANOCTGwHBZjMHhohjDAlIxUF8DSD8yAJlFrlsuAc0DYWSxw2I4FJMJhoN5a/ghYQSkqWIeKYDa5l3CYZ4aP8MCMaD/VInwIzJ4gEM9ML0mINPEAmr7V4FE/6CDy2j5wwCHedpAcR3cYfEAmcYin0Cu+4gFIDvQ7QGmhQOE9JESH4fRwgoGjoqhqEFxy2Es7iJkHrXdR8g8XO47SITdMPNAZsD8iss89LKYWPchA1LTEqg+OQx1GzKG2oVCU8tOYgAA4btYeQ==
   </data>
  </layer>
- <layer id="3" name="Above" width="10" height="8">
+ <layer id="5" name="Walkable" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFNUwMDDFMDFjBYTHs4iCQz4SqbjcrA4MzFnPq0dSdBqqbyoqpTl+IOHurWIlThwxwqQPZiWwvMQAA1hkKlg==
+   eJzbKMbAsHEUE8TogBg1pABizSPWfdjU0sM8UsBAmEeKfQNhHrFgoNMfLjlcZpHqRlLzIyH3EZvHSbWHkH50cUrMIwUQax46m1RAaTyRE/bY3EpsXOBSR4z/iTGPVAwATeTErA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="10" height="8" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYBiAsbHJYQO4zEGWI6SWWPdhEwcApugwMw==
-  </data>
- </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="exit" type="mapchange" x="128" y="224" width="32" height="32">
+ <objectgroup id="6" name="Mapevents">
+  <object id="37" name="east" type="mapchange" x="544" y="288" width="32" height="32">
+   <properties>
+    <property name="map" value="gaelbasement_east"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="63" name="exit" type="mapchange" x="608" y="512" width="32" height="32">
    <properties>
     <property name="map" value="mywild20"/>
-    <property name="place" value="shack"/>
+    <property name="place" value="secret_beneath_exit"/>
    </properties>
   </object>
-  <object id="3" name="down_to_basement" type="mapchange" x="32" y="128" width="32" height="32">
+  <object id="66" name="undg_thives_party_gold_loot" type="container" x="544" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="gaelbasement"/>
-    <property name="place" value="up_to_gaelbasement"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="15" name="secret_beneath_check_key" type="script" x="64" y="128" width="32" height="64"/>
- </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="2" name="gael" type="spawn" x="128" y="96" width="128" height="64"/>
- </objectgroup>
- <objectgroup id="7" name="Keys">
-  <object id="10" name="secret_beneath_start" type="key" x="32" y="128" width="32" height="32">
+  <object id="67" name="undg_thives_party_gold_loot" type="container" x="512" y="96" width="32" height="32">
    <properties>
-    <property name="phrase" value="gael_hatch_basement_jumped"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="14" name="secret_beneath:30" type="key" x="32" y="128" width="32" height="32">
+  <object id="68" name="undg_thives_party_gold_loot" type="container" x="480" y="96" width="32" height="32">
    <properties>
-    <property name="phrase" value="sign_gael_nokey"/>
-    <property name="requireId" value="secret_beneath_nondisplayed"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="35"/>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="69" name="undg_thives_party_gold_loot" type="container" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="70" name="undg_thives_party_gold_loot" type="container" x="512" y="416" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="71" name="undg_thives_party_gold_loot" type="container" x="448" y="416" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="72" name="undg_thieves_party_entrance_sensor" type="script" x="512" y="256" width="96" height="96">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Replace">
-  <object id="16" name="secret_beneath_nondisplayed:10" type="replace" x="32" y="128" width="32" height="32">
+ <objectgroup id="7" name="Spawn">
+  <object id="53" name="undg_thievesboss1" type="spawn" x="352" y="672" width="32" height="32"/>
+  <object id="54" name="undg_thiefwarden" type="spawn" x="544" y="704" width="32" height="32"/>
+  <object id="56" name="undg_thieves" type="spawn" x="512" y="160" width="480" height="384" rotation="90">
    <properties>
-    <property name="Objects" value="Objects_after"/>
+    <property name="quantity" value="7"/>
+    <property name="spawngroup" value="undg_thieves_party"/>
    </properties>
   </object>
+  <object id="58" name="undg_thievesboss2" type="spawn" x="288" y="672" width="32" height="32"/>
  </objectgroup>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>

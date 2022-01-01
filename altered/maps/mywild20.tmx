@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="18">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -177,69 +177,70 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="10" height="8">
+ <layer id="1" name="Ground" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJyT52JgMCCA5YFYAYg/SuHHClB1DNL4MUzddCCeAcUz0fjToWr00cSxqdWHum06DnkYBqkB2Y9NDlkfSM0rTlRcyoUpBsIALRssUg==
+   eJzbyMnAsJGG+LowJqbEvOfCmJgS8z5IMTB8RMKfpCgz7z9QP4M0AjNKUy8sN+MQF+Qi3SxZLgTejMYnx216XAgMMk+OC4HJMU+XC4E3o/EpCT90TFGcCBOJiYy3g8LEYULmwf1GpPvwhQNyWFHqPvSw5wPmDX4CWIBA/kE2TxaoVo4AlifBPGIwPrNA8SHIRX3ziHUntfIIxflkFOPEABHESP4=
   </data>
  </layer>
- <layer id="2" name="Objects" width="10" height="8">
+ <layer id="2" name="Objects" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYKA++MCKypdlYmD4zAdhyzAhSbAxMDwTY2B4KYagmfkZGE4IMjBUIZnBAhT/BsQ/kehbghA5kD4YSALqeSiEMOsr0KxvQHxDEKIPZj9IXSUrkplANV/4IXZWobmdEAAAldQbSA==
+   eJytVU1PFEEQbdbMBrMRp/cwyYQl8eQBbsZfYLhouAh7ET2JHtSYqCc4eNIDhF/gEX6EhD+Ay0fiTc2QSKIJAhoVFKJ44ZVVla5ZeiAxvuSltnuqX7+u6pkdz527Bz4Ab0bifZCwlJ2eV3gej4smzY3UeP0tiYQN5C1k/DumpRr2OY1v5GUdguovZGFPG62/c83jexEutDi+rzv3UPSWxd87H/ayNVA/sVr1QeMR+BV6TxE/9B7nXi97pprF6qr1/Im8TeR9Br9jvIO4BW6Lv02JlKeerabW4hvm1kTvAHn7PpBwEbVpgYcYdzLOG02de5ZKnUVLUfiwL3lImoGEGuIZoerdhtYEuGh65ZrlflLeKzw/8My60at16T2G1hPwesq9uZZzv1Z8WY/Ou565KArM/+7SS5vcm6ty3ssN53albz/Aj+LR4kU9rk94g9xVOTPVdLjB+2n/tqS/J6EwZ9L+P0+5plbvNJ0qdMTfeZy93Qh3jnBJ7kBWq15f8io1pfv3MmO+Nb6uiF4ueoXUrr9V1slbwdt8wv5eow6ffHVPx5C3A70BaA9hfTsJzwaN3lzC3yF6Jzo+3DsLuksTCb93f30i3hG9SXiZysNZCX883+kvPvRDoe+RYrZrPI11Mzl7u2veW4XVq7rL6lHvinrT8Yho0pl7zoZvEdXyV6SeU6Z29pwE/VbZ33aOoLoxklbs21/1f9CtvWF6EvOg8SStf4n/U4viEY+Q2Ko=
   </data>
  </layer>
- <layer id="9" name="Objects_after" width="10" height="8">
+ <layer id="3" name="Above" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBj84IvoQLsANwAAoqcBCg==
+   eJxjYKAdeMiOXfwRVDxSkjTzGDmwizPhEEcHJwRJs49WQJyJNPUWAgwMk1gxxXmEcOuxITVs8ZgFAqC4iiLRTHTwFi38rXCYV43Fr9iADxPpYQkDnWyYYrk4zNKBhg3MLhCNK21jA4/Q1IpAzdMH0iycEDautI0NoKd3USTzYIBU9yHHrzDUXchpjlT3ZUqSnr9JAU9IcA8IGONwC3KaxpbHiAXY8oeBEASTC2zQzKTEPGT3wdgw+jE0LBOBdCMQFwJxMpbwRdaHLIYOkM2uwhGm5KYNZLPR6aEIAHqJIho=
   </data>
  </layer>
- <layer id="3" name="Above" width="10" height="8">
+ <layer id="4" name="Walkable" width="20" height="24" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFNUwMDDFMDFjBYTHs4iCQz4SqbjcrA4MzFnPq0dSdBqqbyoqpTl+IOHurWIlThwxwqQPZiWwvMQAA1hkKlg==
-  </data>
- </layer>
- <layer id="4" name="Walkable" width="10" height="8" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYBiAsbHJYQO4zEGWI6SWWPdhEwcApugwMw==
+   eJzNk0EKACEMA32F//+CP9yTINJsEs3CFnrT6ZS2o7c2SM5g75xMM7/y2yPp5DKZk+rJ+qqY6O+bl8JH3g5vZSb8dt7tvqEat3vAZpvinfSrzPH0jlanisfYiKfsj/peuTfVXeEp4dRgtRgL9VkxnEyy/pAPELz1pQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="exit" type="mapchange" x="128" y="224" width="32" height="32">
+  <object id="1" name="west1" type="mapchange" x="0" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="mywild20"/>
-    <property name="place" value="shack"/>
+    <property name="map" value="mywild19"/>
+    <property name="place" value="east1"/>
    </properties>
   </object>
-  <object id="3" name="down_to_basement" type="mapchange" x="32" y="128" width="32" height="32">
+  <object id="2" name="west2" type="mapchange" x="0" y="448" width="32" height="32">
    <properties>
-    <property name="map" value="gaelbasement"/>
-    <property name="place" value="up_to_gaelbasement"/>
+    <property name="map" value="mywild19"/>
+    <property name="place" value="east2"/>
    </properties>
   </object>
-  <object id="15" name="secret_beneath_check_key" type="script" x="64" y="128" width="32" height="64"/>
+  <object id="3" name="west3" type="mapchange" x="0" y="640" width="32" height="32">
+   <properties>
+    <property name="map" value="mywild19"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object id="4" name="shack" type="mapchange" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="mywild20_houseright"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object id="5" name="house" type="mapchange" x="288" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="mywild20_houseleft"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object id="9" name="north" type="mapchange" x="288" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="wild10"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="10" name="secret_beneath_exit" type="mapchange" x="608" y="512" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="2" name="gael" type="spawn" x="128" y="96" width="128" height="64"/>
+  <object id="6" name="forestwolf1" type="spawn" x="64" y="224" width="64" height="96"/>
+  <object id="7" name="forestserpent1" type="spawn" x="352" y="96" width="192" height="64"/>
+  <object id="8" name="forestserpent1" type="spawn" x="480" y="128" width="128" height="192"/>
  </objectgroup>
- <objectgroup id="7" name="Keys">
-  <object id="10" name="secret_beneath_start" type="key" x="32" y="128" width="32" height="32">
-   <properties>
-    <property name="phrase" value="gael_hatch_basement_jumped"/>
-   </properties>
-  </object>
-  <object id="14" name="secret_beneath:30" type="key" x="32" y="128" width="32" height="32">
-   <properties>
-    <property name="phrase" value="sign_gael_nokey"/>
-    <property name="requireId" value="secret_beneath_nondisplayed"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="35"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="8" name="Replace">
-  <object id="16" name="secret_beneath_nondisplayed:10" type="replace" x="32" y="128" width="32" height="32">
-   <properties>
-    <property name="Objects" value="Objects_after"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="7" name="Keys"/>
+ <objectgroup id="8" name="Replace"/>
 </map>
