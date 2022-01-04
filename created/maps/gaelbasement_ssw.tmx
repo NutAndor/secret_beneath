@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="46">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,12 +191,12 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7w8zA8AYH/g/EpkwMDJvFGBjMgPRfPGqR9QiwYGJBIFaFmqUGpPmxqAFhmB1vmSF6tnBix5ZQs6yYcKsB2QEzC5caUvBIMOsfFc0CxSe1zALhUbOIxyBAxfS1YBCa1TBY8xCsLKSmWdTCABOmGiM=
+   eJx7w8zA8AYH/g/EpkwMDJvFGBjMgPRfPGqR9QiwYGJBIFaFmqUGpPmxqAFhmB1vmSF6tnBix5ZQs6yYcKsB2QEzC5caUvBIMOsfFc0CxSe1zALhUbOIxyAwnM0CgcGah2BlITXNohYGAHLAFcg=
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYMANNothYkJAjImB4SofA4MkE8MCOSDmA2JOIMZmljRQnBuIgWofANUdAOljYkI1T4kFE2MzC5s6ZKCMxoe5FZtZYkyYahWx6KdGeA1Ws67xMzRQwyxs6knFIIAr3skxi5ruGqxm/WNmOEANs0bx8MIAs1PXxA==
+   eJxjYMANNothYkJAjImB4SofeWaB9DExoYopsWBibGZhU4cMlNH4MLdiM0uMCVOtIhb95PiRWDBczMKmnlQMArjinRyzqOmu4W7WKB5eGACHS86T
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
@@ -204,25 +204,25 @@
    eJw7JMbAcAgHxgZwqUXGR3HoJQSOoJlzmExzYODgqFlkm0WtNEENsHnUrAEzaxQMLwAAJkA1uw==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="19" height="20">
+ <layer id="4" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
    eJzlUkEKACAM6hX9/wv7YXQLMeeoSyTsUCx1ruitxeM14fYh8F71KZ4K18r3A5e7j8q+T5H9nYp/fIM6THt3ZjNWOJh3Z15nPqahPDJviivLn2mq7B1fWV5uTsqXC7bT2zUAzImfXA==
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
-  <object id="37" name="east" type="mapchange" x="576" y="288" width="32" height="96">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="east" type="mapchange" x="576" y="288" width="32" height="96">
    <properties>
     <property name="map" value="gaelbasement_ss"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="45" name="undg_gison_bottle_8" type="script" x="32" y="224" width="32" height="32">
+  <object id="2" name="undg_gison_bottle_8" type="script" x="32" y="224" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Replace"/>
+ <objectgroup id="6" name="Replace"/>
  <objectgroup id="7" name="Spawn"/>
  <objectgroup id="8" name="Keys"/>
 </map>
