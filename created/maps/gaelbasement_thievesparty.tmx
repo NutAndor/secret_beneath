@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="15">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="74">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,77 +191,89 @@
  </tileset>
  <layer id="1" name="Ground" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxbwcTAsAKId1EBr0DCu4H4DAV4J5JZK4H4LBDfowCfRjPvPhBv5qQMI5tHqVmj5o2aN2oeKp7GhMDIZQs55oEArjKLHPNO4yi3Bot5y3GUg+SatxNPmT8Y/AvC1PQvoTS9ggk1fZKLATbKXo8=
+   eJxbwcTAsAKKd1GIVyDh3UB8hgK8E8mslUB8FojvUYBPo5l3H4g3c1KGkc2j1KxR80bNo8S8KFbqmpdFZfPI0T+NCYGRyxZyzAMBXGUWOeadxlFuDRbzluMoB8k1byeeMn8w+BeEqelfQml6BRNq+iQXAwBQFV3T
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJy1lc8rRFEUx28z986KmYZmSvmRbJSsZmGlsKb8KlJYUEohG/kRwx9gsJB/BGXDbGaWTIkm5UcslJiFUSgL39u827vvzH3ek5z6dOeee8/3nPvrDWP/Z49hf9RHGGsFzeAF/ULYrFcBKn20ER+1pQVjtWjrmHfbAJ5R05fGdcCpl4NePvpzzqxhXMU0Ev+dMMecC5tXUARv4NIj96Bw9uV8mftB2ARCjAUBD9lz3Oqe1PS81u3HBsh6VbvPGTsAh9xch5tNiHJfBhrH4ASkuXtsMVbuu4nY+6HaC2icgjOQI3pyjl4vPZ+CdUn1vZPz36HzAT65cyxPclMbMaxXt9/snbRpS6+lyplXwB8y5BqCb1iU2imwS97HE9a7SO6MJAZfXPOrPDTezeh+3PMSeh5pRx5686hhFIyBFdABxkX5mUtz28vbGvv3BmJnwCxYBr1gTltnNup9JrreDolVRt+eqpN+n6heO/RWwRpIgnWwIGxt9X2g+XS70vw9iN0EKbAFtsGSoWY3rWDc2W8T9t0z3f2kdsZSk663mujtYbwTml2gD/SDbqu+hPXWEtycS9bRBL2My//SX+wbsot4IA==
+   eJy1lTtLA0EQx5fkNpUmqCQg+MRGEEGwsBLUxkbBF2ijFgo2JmIjPtDoB/BViKVfQxtNY7DSgCBBEIMWgmgKY2nhf7ksuzfZyx6IAz82O7fzn9m92Qtj/2dv0WC0xBjrBp3gE/Ni1KxXA2oDjLEAtWU4Y00Ym5l9bAUfqOlH4ynk1ctBL19XPWfW8FzGtBN/gZtj7rniC5TAN3iw5J7i3rlYL3K/ckUowlgYOBG1xq/uRU3Ptu8gNkn2K8dlh7EkSDnmOvxsgVf6hqFxCa5AxnHnJivFK32FmDoPOYr4W3AHckRPrKlWb7HcpPrZifX6fvVneZL7nNyRNkvT287uhuj1lPW66r15Oc41YjjbafhmuDsugRNyP96ht056RhCHL6H5ZR4a72e0718cFz2PsAuL3ipqmAVzYAsMgHle+c6F+Z3lc6P6vYfYJEiBTTAGVrR9Zi39QfWOSaw0evdknfT7RPX6obcNdkAa7II1rrTl94Hm0+1R848idh8cgENwBDYMNftphRPeeR9XvUd7X1hae8dCk+63geid4vkgNIfAOJgAI+X6eqF15rijKZeoowN61z7/S3+xX9dBdUI=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYKANOCQ2sPoJgcNUNn84mbeGn7rmEQOobd4lPOaJAf2nSoQfkcEDEtUTAtT2rwKV3WeAwzxtoLgOle0aDIAa8XEUyYzBnj9IMe8gEWoHu39pXZ+QCwCEwRMO
+   eJxjYKAdOCxGPbMuA826REXzSHXbRQLqQeZdprL7qO1fYt23hp84/w6U+4g1D5v7bgH9JgbEqkT4Ed08QuqpbR4pgF7hpw0MNx1+7HqA/nmATKObBxRPoJafqVm2UMu8o0hmDEb3oZtH7fRCTTdeIqJ8oUZaomYeJAcAAOQvLQQ=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="24">
+ <layer id="5" name="Walkable" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUE8TogBg1pABizSPWfdjU0sM8UsBAmEeKfQNhHrFgoNMfLjlcZpHqRlLzIyH3EZvHSbWHkH50cUrMIwUQax46m1RAaTyRE/bY3EpsXOBSR4z/iTGPVAwATeTErA==
+   eJzbKMbAsHEUE8TogBg1pABizSPWfdjU0sM8UsBAmEeKfQNhHrFgoNMfLjlcZpHqRlLzIyH3USvf4zOPGHFKzCMFkOI+Yv1LrD3khB8uMWLdQ45fkdXh8yOxfiUHAwCTT8fI
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="544" y="288" width="32" height="32">
+ <objectgroup id="6" name="Mapevents">
+  <object id="37" name="east" type="mapchange" x="544" y="288" width="32" height="32">
    <properties>
     <property name="map" value="gaelbasement_east"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="exit" type="mapchange" x="608" y="512" width="32" height="32">
+  <object id="63" name="exit" type="mapchange" x="608" y="512" width="32" height="32">
    <properties>
     <property name="map" value="mywild20"/>
     <property name="place" value="secret_beneath_exit"/>
    </properties>
   </object>
-  <object id="3" name="undg_thives_party_gold_loot" type="container" x="544" y="96" width="32" height="32"/>
-  <object id="4" name="undg_thives_party_gold_loot" type="container" x="512" y="96" width="32" height="32"/>
-  <object id="5" name="undg_thives_party_gold_loot" type="container" x="480" y="96" width="32" height="32"/>
-  <object id="6" name="undg_thives_party_gold_loot" type="container" x="448" y="96" width="32" height="32"/>
-  <object id="7" name="undg_thives_party_gold_loot" type="container" x="512" y="416" width="32" height="32"/>
-  <object id="8" name="undg_thives_party_gold_loot" type="container" x="448" y="416" width="32" height="32"/>
-  <object id="9" name="undg_thieves_party_entrance_sensor" type="script" x="512" y="256" width="96" height="96">
+  <object id="66" name="undg_thives_party_gold_loot" type="container" x="544" y="96" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="10" name="secret_beneath_rope_dialogue" type="script" x="544" y="704" width="32" height="32">
+  <object id="67" name="undg_thives_party_gold_loot" type="container" x="512" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="68" name="undg_thives_party_gold_loot" type="container" x="480" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="69" name="undg_thives_party_gold_loot" type="container" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="70" name="undg_thives_party_gold_loot" type="container" x="512" y="416" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="71" name="undg_thives_party_gold_loot" type="container" x="448" y="416" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="72" name="undg_thieves_party_entrance_sensor" type="script" x="512" y="256" width="96" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="73" name="secret_beneath_rope_dialogue" type="script" x="544" y="704" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="11" name="undg_thievesboss1" type="spawn" x="352" y="672" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="undg_thievesboss1"/>
-   </properties>
-  </object>
-  <object id="12" name="undg_thiefwarden" type="spawn" x="544" y="704" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="undg_thiefwarden"/>
-   </properties>
-  </object>
-  <object id="13" name="undg_thieves" type="spawn" x="512" y="160" width="480" height="384">
+ <objectgroup id="7" name="Spawn">
+  <object id="53" name="undg_thievesboss1" type="spawn" x="352" y="672" width="32" height="32"/>
+  <object id="54" name="undg_thiefwarden" type="spawn" x="544" y="704" width="32" height="32"/>
+  <object id="56" name="undg_thieves" type="spawn" x="512" y="160" width="480" height="384" rotation="90">
    <properties>
     <property name="quantity" value="7"/>
     <property name="spawngroup" value="undg_thieves_party"/>
    </properties>
   </object>
-  <object id="14" name="undg_thievesboss2" type="spawn" x="288" y="672" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="undg_thievesboss2"/>
-   </properties>
-  </object>
+  <object id="58" name="undg_thievesboss2" type="spawn" x="288" y="672" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
