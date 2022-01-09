@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,7 +191,7 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlEEKhDAMRUt140rdeAOFca/gXFtvZecIo9NignGIYhMDj1ooj09j6hJjnGdR4Airp0jlfMHz8ZR+P2Vy8nR3aTzIHOkKVdttbWCVusbKHCrsqWuNzNVBnp7Jpb136sLvl90yt1bvqsHVPOAKHkTr6iBX/0CuAVxvhUvy33N9krq4Pkld/30Kha6rOePg+oSuqznj4PpEc53N2V3o23pGzPkfN8AAvg==
+   eJyllD0KgDAMRoO6OKmLN1DQXUGvrbeyHsGfFFoMEotNhkcplNfwpalJAQxyKjCECykzOYfz7EiF+zWXU2SPS+PxbJGuLgFokKUGaHHtE7nLOt5Q1xXhmrCOwdU14jq/6tLmTl00C3sfzUDqoplqXVyeUhfNVOuanGtWuCTvnuuT1MX1Ser6evfWFZozDq5P3hWaMw6uT94VmrO/0L/1i5jzNyQCCvE=
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
@@ -242,12 +242,6 @@
    </properties>
   </object>
   <object id="6" name="gaelbsmnt_mobs" type="spawn" x="256" y="544" width="96" height="32">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="undg"/>
-   </properties>
-  </object>
-  <object id="7" name="gaelbsmnt_mobs" type="spawn" x="32" y="224" width="32" height="32">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg"/>

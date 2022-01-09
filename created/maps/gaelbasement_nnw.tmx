@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="10">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,22 +191,22 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7w8zA8AaI/xGJsal9g4T/A7EAC/n4L5JZgkD+Fk7yMT8LxBxKzEDG1DaLWuZR0yxa+HPUrKFt1mBMqyAwGN1FK7Nw4bc47MGlHgCFpBnj
+   eJx7w8zA8AaI/xGJsal9g4T/A7EAC/n4L9Sct0AsCORv4SQf8wP1v4aaRYk5MPwa6jZqmPVmkJoFM2/UrFGzkM0ZbGaBwGB0F63MwoVxlW241AMAcDYaRw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+uMpHPX1KLORjGHjDzMCgzIJpNi7QKogppsiCMIsUMBWLWaSAq/wI9lIKzSIGYPM7uYBSvyMDWvkd3b+bhRgYtgDxLyHSzUL372GgGUegZpEarvj8S0y43iIynZISrr/IDBdCgFppDuQ2fGFDij0gsyiNA2IBNdP2TWb8cQ8An0oezw==
+   eJxjYKA+uMpHPX1KLORjZKDMgmk2LtAqiCmmSIJ+ZDAVi1mkgKv8CPZSCs0iBmDzO7mAUr8jA1r5Hd2/m4UYGLYA8S8h0s1C9+9hoBlHoGaRGq74/EtMuN5iptwedPCLzHAhBKiV5kBuwxc2pNgDMovSOCAWUDNt32TGH/cAeVUc8Q==
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlN0NgCAMhE26g/vvwgTKkzqCMoL4k0i8NKVQQpO+0OOj2oNh6B9urNMdpGv9U5s7sWo5b0TS9SuVc6Nfvwh17Lsm/dfPLtSsrDnDil9aWOl7cC1AvxaWlIHNVdJESAuL77P0zVm4b8+cpbHQb05gcT+WZpJj4cySR0sz0Fjcoy2sU9A5YOX+ncSahB5W4Lxa7Q5prOSVi35ty33kPqthaWF5224vItr4
+   eJytlNsNgCAMRU26g/vvwgTqlzqCOIKoRAlN0xfGJv3q5aT0Frru/wi9TxdB1053bfyJ5eXkSKDrF7BzhaqfmTru28odnlnk2Jh6K2sUWOlNLyui+0j9trCkfoPBSihbWPQc7ZubtcSi52j9cHqSIzAsuo+WJxILe1Z21PJAY1HPv7DobMrssL9e1sD0UPbzfLnaG9JYZVdOqNov75HumYelRcvfdgE2Gtr7
   </data>
  </layer>
  <layer id="4" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzlksENwDAIAzNF918hG+ZbWWfs9FukSCQBfCD2s9b+yWmNYqea5L/vGkP3hmfSaH2n6XIohnrQ3tz/zczaWomRLHElPseoGu3cE5fLcRqkmXaEenUa1P+k6/SIq+Fxdafcdr8m5i/74t6UgUzr07mJP5hFqwU=
+   eJzlksENwDAIAzNF918hG+ZbWWfs9FukSCQBfCD2s9b+yWmNYqea5L/vGkP3hmfSaH2n6XIohnrQ3tz/zczaWomRLHElPseoGu3cE5fLcRqkmXaEenUa1P+k6/SIq+GZ2F1uu18T85d9cW/KQKb16dzEH7I0qj4=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -260,8 +260,9 @@
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="9" name="gaelbsmnt_mobs" type="spawn" x="192" y="512" width="32" height="96">
+  <object id="10" name="gaelbsmnt_mobs" type="spawn" x="512" y="288" width="32" height="128">
    <properties>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
