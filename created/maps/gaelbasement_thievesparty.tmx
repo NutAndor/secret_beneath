@@ -328,16 +328,6 @@
     <property name="Objects" value="Objects_layer"/>
    </properties>
   </object>
-  <object id="63" type="replace" x="320" y="160" width="32" height="32">
-   <properties>
-    <property name="Ground" value="Ground_layer"/>
-   </properties>
-  </object>
-  <object id="64" type="replace" x="288" y="160" width="32" height="32">
-   <properties>
-    <property name="Ground" value="Ground_layer"/>
-   </properties>
-  </object>
   <object id="65" name="undg_thieves_party_gold_loot:1" type="replace" x="256" y="160" width="32" height="32">
    <properties>
     <property name="Ground" value="Ground_layer"/>
