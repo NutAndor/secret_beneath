@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="63">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,75 +191,115 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7w8zA8AaI/1GA3yDh/0AswIKK/2IRxyYGEweZ8xaIBYH8LZzYMbIeXGr4gXKvoWbhUgPCmkwMDJvFGBi0mPCrI8YsS6hZVlQwi1j8hkpmIYc9pWaBwv4fFf0IwoMtvF5TMbz+Mg/O8KJ2mqBmuh/MZr2hYlrFh9Hd/JqAegDgBhvx
+   eJzNlFEOQDAMhhfz4mm8uAM34CqOya3UEYY2JqllQ7I+7OFLaJvvTw2glQJkTwAYB1KXT1asbfq7RljnoV6D90v1xAYy7po/a1iO35uKq08ZHV7PrVI9q/nzRMzFGZxrLN7n/rj+AgIuy84z1WXY2eS0o7Rr1XIuK/TsOVLvhMSOxvvuJfbL2QURVyjnLZv/W0O9kCs2S5zf6xd6
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJytUztOw0AQHTlOqOJ1MiISQsJ8DgDiChyBkqSBklDlBPRQUlIANVeAyi1QRXxqGs6AAvOyu9qxY8cUPGk06/XM2zezs0T/j+OI6NIQnYjvRnYP/qFD9Ci2ukLUUvvrbr0hPosCD/5tx0TXxnptT8LzLPbSWfznrau4duQ7T4juhWsq9mXq9Q8k7zWx+ROJM0y0FdfHXxibU8a+sfn6H3h/+uq7t3i2XqMnA6cDeeX4t1a9Ls2P/DXH/Z1YHUCehNisoobyeUDKtrY5uMiB+BYXe98Its73ZV6n42TX+/eGOj0SDh5aZv3AexAV+5VJzCYXtWtMe0Vd6OHMrcv3vSs8e0y1QB40TUzQl7r4w5peQU/u5gV5yDE+j4MW7Pl+ofeosapfiPH5mhdrr8X3AJ6X1KPrIg7vJFVaNNKKmaiarTroGcOZy95jGThHz1T57PO4er9JZ6r74+btU3F9yB3ctImuxMbwsb0b7B9J/FBsxGHvVmLuxIZte9dNb9vjVGLHYmd/uK9fZG9Wlg==
+   eJytUrFOAkEQ3ewBiSHcAZtcQryAyAdo/AU/wVIs1MRGLNQv8AMs/QC19hfUhlatCGBtY21lAc67nXHnThMbN3mB23nzZubtGPO/59Aac0C4TPz/hg2x+5oxD4THWrhDvEvoEHqEU1vUW68UYSleJzyRxjPhhRBbX6vM1bUH9D2hnt4Ji3a4Xy3V6/L3NPb558RPnDH9SuDge9oy5o5iS9L6iH18UClqyd1n2/NT63WXqj5qrFgfw8k5LZ8DdDkWO58nvIx+Z5Ex8yhoIQ8+ZjZoCx9aHf6WPsAbxz6+X/JBewddOfCu6bwG8uuJ10hVTakrvclMWjfv0flcaOAs2SfMiv7wv89vWe5L+7VtfU/ISVzwCzU6/EYN5s2UXz3irLninDs29DtpeY1v313YnbTk1wbFNt3PGdFXk/PQE/qBNmbGPbg7v3ifcR9j3hfsIfIxX+4Xa2b8lobnlp0Q77Xv4o+8mejKG+g3xDkr9ZUpz8HJveCZRFf2u8Eeige530pP74Ter8J+qJjsKWqWd2LB9aSu5GW2WEfXTRXvQmnlvar9hufw9DXyXNltuTO8Z7K3b0oL8ZuqMVeEEeG2GmK7xB0S9tT+DSl+RNgiXFeLu4ozj4qQc0waI8KJ+5v7BTpEcTc=
+  </data>
+ </layer>
+ <layer id="11" name="Ground_replace" width="19" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg5YAvnQLtgFIyCUTAKBg4AALoIAL4=
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJw7JMbAcGgUj2h8CYhBgFrmUMMsZEBNsyg1byiYNZjC/jIV0wSyedQwayRiAPl7Kio=
+   eJxjYKA+OCxGvDgutSBwGSh3CYjn8lNuFrLcRSD7jhCCfwmLPmxixNhDKhg1a9SsUbMGj1n48j054CIO8y5jEb+MVkYRC0jxPwBjvhuf
   </data>
  </layer>
- <layer id="4" name="Walkable" width="19" height="20">
+ <layer id="5" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEEYRhAZ+OSx2cGNkBIPSlmYXMHPvuIMQebueSYhc9dlPgRn/mUmoXLjaSYSa5Z6GrwmYVLH660hY1NTLwQiidi4pGaZuEDuNIpsWYR6wdK3ITNbYMNAwAVuKWU
+   eJzbKMbAsHGEYBCglnoYIMUsbOpxAVzuwKUGn1kwtdj4uPxJyF24+OhipPoRm35qmYVPPT5AiVmE0hUuu/Dpx2cWvngkNo3iUk+M34i1l1RATH4kx1xC7iPGT/jMGWwYAG3TvOY=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="576" y="288" width="32" height="96">
+ <objectgroup id="6" name="Mapevents">
+  <object id="37" name="east" type="mapchange" x="576" y="288" width="32" height="96">
    <properties>
     <property name="map" value="gaelbasement_west"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name="undg_gigantic_snake_entrance_sensor" type="script" x="544" y="288" width="32" height="96">
+  <object id="45" name="undg_gigantic_snake_entrance_sensor" type="script" x="544" y="288" width="32" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="3" name="gold_bar" type="container" x="352" y="192" width="32" height="32"/>
-  <object id="4" name="undg_gison_bottle_4" type="script" x="128" y="96" width="32" height="32">
+  <object id="62" name="undg_gison_bottle_4" type="script" x="64" y="96" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Replace"/>
  <objectgroup id="7" name="Spawn">
-  <object id="5" name="gigantic_snake" type="spawn" x="288" y="320" width="32" height="32">
+  <object id="48" name="undg_gigantic_snake" type="spawn" x="288" y="320" width="32" height="32">
    <properties>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="gigantic_snake"/>
    </properties>
   </object>
-  <object id="6" name="gaelbsmnt_agrsv_mobs" type="spawn" x="416" y="128" width="96" height="128">
-   <properties>
-    <property name="quantity" value="4"/>
-    <property name="spawngroup" value="undg_aggressive"/>
-   </properties>
-  </object>
-  <object id="7" name="gaelbsmnt_agrsv_mobs" type="spawn" x="480" y="256" width="32" height="160">
+  <object id="49" name="gaelbsmnt_agrsv_mobs" type="spawn" x="32" y="160" width="192" height="192">
    <properties>
     <property name="quantity" value="5"/>
     <property name="spawngroup" value="undg_aggressive"/>
    </properties>
   </object>
-  <object id="8" name="gaelbsmnt_agrsv_mobs" type="spawn" x="32" y="128" width="224" height="224">
+  <object id="50" name="gaelbsmnt_agrsv_mobs" type="spawn" x="32" y="416" width="128" height="160">
    <properties>
-    <property name="quantity" value="5"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg_aggressive"/>
    </properties>
   </object>
-  <object id="9" name="gaelbsmnt_agrsv_mobs" type="spawn" x="32" y="416" width="512" height="160">
+  <object id="51" name="gaelbsmnt_agrsv_mobs" type="spawn" x="32" y="384" width="96" height="32">
    <properties>
-    <property name="quantity" value="7"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg_aggressive"/>
    </properties>
   </object>
-  <object id="10" name="gaelbsmnt_agrsv_mobs" type="spawn" x="384" y="256" width="32" height="288">
+  <object id="52" name="gaelbsmnt_agrsv_mobs" type="spawn" x="384" y="256" width="128" height="288">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="undg_aggressive"/>
+   </properties>
+  </object>
+  <object id="53" name="gaelbsmnt_agrsv_mobs" type="spawn" x="416" y="128" width="96" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="undg_aggressive"/>
+   </properties>
+  </object>
+  <object id="54" name="gaelbsmnt_agrsv_mobs" type="spawn" x="480" y="256" width="32" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="undg_aggressive"/>
+   </properties>
+  </object>
+  <object id="55" name="gaelbsmnt_agrsv_mobs" type="spawn" x="160" y="480" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="undg_aggressive"/>
+   </properties>
+  </object>
+  <object id="56" name="gaelbsmnt_agrsv_mobs" type="spawn" x="192" y="480" width="160" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="undg_aggressive"/>
+   </properties>
+  </object>
+  <object id="57" name="gaelbsmnt_agrsv_mobs" type="spawn" x="352" y="480" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="undg_aggressive"/>
+   </properties>
+  </object>
+  <object id="58" name="gaelbsmnt_agrsv_mobs" type="spawn" x="224" y="320" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="undg_aggressive"/>
+   </properties>
+  </object>
+  <object id="59" name="gaelbsmnt_agrsv_mobs" type="spawn" x="320" y="192" width="32" height="160">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg_aggressive"/>
@@ -267,4 +307,11 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace">
+  <object id="60" name="undg_gison_bottle:4" type="replace" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="Ground" value="Ground_replace"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
