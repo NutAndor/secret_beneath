@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="secret_beneath" x="1152" y="681">
+    <map id="gaelbasement" x="1192" y="723"/>
+    <map id="gaelbasement_east" x="1212" y="723"/>
+    <map id="gaelbasement_thievesparty" x="1232" y="722"/>
+    <map id="gaelbasement_west" x="1172" y="723"/>
+    <map id="gaelbasement_ww" x="1152" y="723"/>
+    <map id="gaelbasement_north" x="1192" y="702"/>
+    <map id="gaelbasement_nn" x="1192" y="681"/>
+    <map id="gaelbasement_south" x="1192" y="744"/>
+    <map id="gaelbasement_ss" x="1192" y="766"/>
+    <map id="gaelbasement_en" x="1212" y="702"/>
+    <map id="gaelbasement_enn" x="1212" y="681"/>
+    <map id="gaelbasement_nnws" x="1172" y="702"/>
+    <map id="gaelbasement_nnw" x="1172" y="681"/>
+    <map id="gaelbasement_se" x="1212" y="744"/>
+    <map id="gaelbasement_ws" x="1172" y="744"/>
+    <map id="gaelbasement_sse" x="1212" y="766"/>
+    <map id="gaelbasement_ssw" x="1172" y="766"/>
+  </segment>
+</worldmap>
